@@ -3,8 +3,9 @@ print(x)  # вывел значение переменной
 print(type(x))  # вывел тип данных переменной
 
 age = input('Введите свой возраст: ')
+# ввод значения в переменную с клавиатуры
 print('age строка')
 print(type(age))
-age = int(age)
+age = int(age)  # смена типа данных переменной
 print('age число')
 print(type(age))
